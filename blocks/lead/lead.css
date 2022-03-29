@@ -1,3 +1,4 @@
 .lead {
-  margin: 48px 48px 92px;
+  margin: 48px auto 92px;
+  padding: 0 48px;
 }
