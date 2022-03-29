@@ -1,0 +1,16 @@
+.cover__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  z-index: 5;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
