@@ -1,4 +1,6 @@
 .lead {
   margin: 48px auto 92px;
   padding: 0 48px;
+  max-width: 984px;
+  min-width: 928px;
 }

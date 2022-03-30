@@ -5,5 +5,5 @@
   grid-template-rows: 152px 440px;
   row-gap: 48px;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  column-gap: calc(100vw*0.03125);
+  column-gap: calc(100vw/32);
 }
