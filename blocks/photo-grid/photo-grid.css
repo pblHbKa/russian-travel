@@ -1,9 +1,10 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3, 225px);
-  gap: calc((100vw - (2*48px) - (3*300px))/2);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 14px;
   margin: 0 auto 92px;
   padding: 0 48px;
-  width: 100%;
+  width: 100vw;
+  box-sizing: border-box;
 }
