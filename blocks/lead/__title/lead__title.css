@@ -6,3 +6,13 @@
   line-height: 100px;
   text-align: center;
 }
+
+@media screen and (max-width:767px) {
+  .lead__title {
+    padding: 0 16px;
+    font-size: 40px;
+    line-height: 1.1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

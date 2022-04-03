@@ -6,3 +6,9 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    margin-bottom: 32px;
+  }
+}

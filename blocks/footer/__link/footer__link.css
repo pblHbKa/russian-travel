@@ -5,13 +5,22 @@
   color: inherit;
   margin: 0 18px 0 0;
   text-decoration: none;
-}
-
-.footer__link:last-child {
-  margin-right: 0;
+  text-align: left;
 }
 
 .footer__link:hover {
   transition: opacity .5s ease;
   opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+.footer__link:last-child {
+  margin: 0;
 }

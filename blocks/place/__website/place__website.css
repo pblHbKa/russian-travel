@@ -2,3 +2,13 @@
   align-self: end;
   justify-self: start;
 }
+
+@media screen and (max-width:767px) {
+  .place__website {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    text-align: start;
+    margin: 32px 0;
+  }
+}

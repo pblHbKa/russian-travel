@@ -6,3 +6,21 @@
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   column-gap: calc(100vw/32);
 }
+
+@media screen and (max-width:1023px) {
+  .place {
+    margin-bottom: 73px;
+
+  }
+}
+
+@media screen and (max-width:767px) {
+  .place {
+    margin-bottom: 73px;
+    display: block;
+  }
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
