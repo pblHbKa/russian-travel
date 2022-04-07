@@ -9,8 +9,8 @@
   .lead {
     padding: 0;
     margin: 48px 0 88px;
-    width: 100vw;
-    min-width: 100vw;
+    width: 100%;
+    min-width: 100%;
   }
 }
 

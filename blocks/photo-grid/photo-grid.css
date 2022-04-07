@@ -7,8 +7,6 @@
   gap: 14px;
   margin: 0 auto 92px;
   padding: 0 48px;
-  width: 100vw;
-  box-sizing: border-box;
 }
 
 @media screen and (min-width: 1280px) {
